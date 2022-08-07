@@ -8,7 +8,7 @@ const userSchema=mongoose.Schema({
     },
     email: {
         type: String,
-        trim: true,  //스페이스를 없애주는 역할
+        trim: true, //스페이스를 없애주는 역할
         unique :1  //똑같은 이메일 못 쓰게
     },
     password: {
